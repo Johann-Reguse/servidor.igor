@@ -1,4 +1,6 @@
-
+<?php
+ echo "ola mundo";
+?>
 
 <head>
 </head>
