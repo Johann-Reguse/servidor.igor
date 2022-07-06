@@ -8,10 +8,8 @@
   <a href="https://igorbecker2.herokuapp.com/fluxograma.pdf" download="fluxograma.pdf">PDF para ser baixado conforme solicitado</a>
   <p></p>
   <form action="calculo.php" method="post">
-   <?= $valor1 ?>
-   <?= $valor2 ?>
-   Valor 1<input type="text" name="v_valor1" value=<?= $valor1 ?>>
-   Valor 2<input type="text" name="v_valor2" value=<?= $valor2 ?>>                                                               
+   Valor 1<input type="text" name="valor1" value="opa" />
+   Valor 2<input type="text" name="valor2" value="opa2" />                                                              
    <input type="submit" value="Enviar valores">
   </form>
   
