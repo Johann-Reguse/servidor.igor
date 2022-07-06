@@ -3,6 +3,8 @@
   <title>Teste PHP</title>
  </head>
  <body>
-  <p>Olá Mundo</p>
+  <p>Nome dos alunos na equipe</p>
+  <p>Igor</p>
+  <p>Johan</p>
  </body>
 </html>
