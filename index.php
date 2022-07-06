@@ -11,6 +11,7 @@
    Valor 1:<input type="text" name="valor1" size="2" maxlength="2">
    Valor 2:<input type="text" name="valor2" size="2" maxlength="2">
    <button type="button">Enviar valores</button>
+   <input type="submit" value="PROXIMA">
   </form>
   
   
