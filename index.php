@@ -1,3 +1,10 @@
+<?php
+$A = 3;
+$B = 2;
+$SOMA = $A + $B;
+echo "A soma de $A + $B é $SOMA";
+?>
+
 <html>
  <head>
   <title>Teste PHP</title>
@@ -10,13 +17,8 @@
   Valor 1:<input type="text" name="valor1" size="2" maxlength="2">
   Valor 2:<input type="text" name="valor2" size="2" maxlength="2">
 
-  <button type="button" onclick="Evento()">Enviar valores</button>
+  <button type="button">Enviar valores</button>
 
-   <script>
-    function Evento(){
-     alert('evento funcionando')
-    }
-   </script>
   
  </body>
 </html>
