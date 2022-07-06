@@ -1,7 +1,9 @@
 <?php
 
-<b>Variável AA:</b>: <?= $POST['v_valor1'] ?><br />
-<b>Variável AB:</b>: <?= $POST['v_valor2'] ?><br />
+var_dump($_POST);
+
+echo $_POST['valor1'];
+echo $_POST['valor2'];
 
 $A = 4;
 $B = 5;
