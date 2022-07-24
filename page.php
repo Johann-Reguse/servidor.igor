@@ -3,7 +3,7 @@
 	$dadosJsonDecodificados = json_decode($dadosJson);
 	print_r($dadosJsonDecodificados);
 	
-	if($_POST['valor1'] == "0" ) {
+	if($_POST['via'] == "0" ) {
 		print_r($dadosJsonDecodificados);
 	} 
 ?>
