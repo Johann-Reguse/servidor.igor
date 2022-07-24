@@ -5,7 +5,8 @@
     <body>
         <p>ola mundo</p>
         <form action="" method="GET">
-            <input type="text" name="id" placeholder="nome">
+            <input type="text" name="id" placeholder="id">
+            <input type="text" name="nome" placeholder="nome">
             <input type="submit" value="enviar">
         </form>
     </body>    
