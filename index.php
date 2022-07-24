@@ -5,11 +5,7 @@
             echo <'Livro INserido">
    }
 ?>
-<html>
-    <head>
-        <title>pagina de requisição GET e POST</title>
-    </head>
-    <body>
+
         <form action="page.php" method="POST">
         
         if (isset ($_POST['via'])){
@@ -20,7 +16,11 @@
         }
 
         <!DOCTYPE html>
-
+<html>
+    <head>
+        <title>pagina de requisição GET e POST</title>
+    </head>
+    <body>
         // Campos a serem preenchidos
         <form method="post">
             <p>0 visualizar banco de dados / 1 enviar dados</p>
