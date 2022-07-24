@@ -8,7 +8,7 @@
 	  $method = $_SERVER['REQUEST_METHOD'];
 	  
 	  header('Content-type: application/json');
-	  $body = file_get_contens('php://input');
+	  $body = file_get_contents('php://input');
 	  
 	  if($method === 'GET'){
 		if($json[$path[0]]) {
