@@ -3,6 +3,6 @@
       $dadosJsonDecodificados = json_decode($dadosJson);
       //print_r($dadosJsonDecodificados);
       foreach($dadosJsonDecodificados->clientes as $cliente) {
-        print_r($cliente);
+        echo $cliente->id . ' - ' . $cliente->nome . PHP_EQL;
       }
     ?>
