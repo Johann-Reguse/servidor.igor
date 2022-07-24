@@ -5,6 +5,7 @@
     <body>
         <form action="page.php" method="POST">
             <input type="text" name="via" placeholder="0 visualizar banco de dados / 1 enviar dados">
+            <br>
             <input type="text" name="nome" placeholder="Nome autor">
             <input type="text" name="sobrenome" placeholder="Sobrenome autor">
             <input type="text" name="titulo" placeholder="Título do livro">
