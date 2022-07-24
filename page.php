@@ -5,11 +5,7 @@
 		print_r($dadosJsonDecodificados);
 	} 
 	if($_POST['via'] == "1" ) {
-		$arrayLivro = [
-			'livro' => [
-				'nomeautor' => 'nomeAutor'
-			]
-		]
+		
 		print_r(json_encode($arrayLivro));
 	}
 ?>
