@@ -4,5 +4,6 @@
       //print_r($dadosJsonDecodificados);
       foreach($dadosJsonDecodificados['clientes'] as $cliente) {
         echo $cliente['id'] . ' - ' . $cliente['nome'] . PHP_EOL;
+        <br>
       }
     ?>
