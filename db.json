@@ -1,8 +1,13 @@
 {
-  "series":
+  "clientes":
   [
     {
-      "id":1,
-      "namo":"friends"
+      "id":"1",
+      "nome":"marcos"
+    },
+    {
+      "id":"2",
+      "nome":"joão"
     }
+  ]
 }
