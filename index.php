@@ -1,8 +1,3 @@
-<html>
-  <head>
-    <title>Teste PHP</title>
-  </head>
-  <body>
     <?php
       echo "ola mundoooooooo";
       $path = explode('/', $_GET['path']);
@@ -19,4 +14,3 @@
 		      }
 	     }
     ?>
-</html>
