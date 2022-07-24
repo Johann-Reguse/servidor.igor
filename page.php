@@ -6,8 +6,8 @@
 	} 
 	if($_POST['via'] == "1" ) {
 		$arrayLivro = [
-			'Livro' => [
-				'NomeAutor' => $_POST['nomeAutor']
+			'livro' => [
+				'nomeautor' => 'nomeAutor'
 			]
 		]
 		print_r(json_encode($arrayLivro));
