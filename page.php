@@ -10,10 +10,6 @@
 	$body = file_get_contents('php://input');
 	  
 	if($method === 'GET'){
-		if($json[$path[0]]) {
-			echo json_encode($json[$path[0]]);
-		}else {
-			echo '[]';
-		}
-	  }    
+		echo json_encode($json[$path[0]]);
+	}    
 ?>
