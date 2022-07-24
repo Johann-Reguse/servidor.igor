@@ -6,22 +6,7 @@
     <p>SERVIDOR 1</p>
     <p>Nome dos alunos na equipe: Igor e Johan</p>
   
-    <?php
-      echo "ola mundoooooooo";
-      $path = explode('/', $_GET['path']);
-      $contents = file_get_contens('db.json');
-	     $json = json_decode($contens, true);
-	     $method = $_SERVER['REQUEST_METHOD'];
-	     header('Content-type: application/json');
-	     $body = file_get_contens('php://input');
-	     if($method === 'GET'){
-		      if($json[$path[0]) {
-			       echo json_encode($json[$path[0]]);
-	 	     }else {
-			       echo '[]';
-		      }
-	     }
-    ?>
+
  
   
   
