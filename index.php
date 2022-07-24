@@ -1,8 +1,7 @@
     <?php
-      echo "ola mundoooooooo";
       $path = explode('/', $_GET['path']);
-      $contents = file_get_contens('db.json');
-	     $json = json_decode($contens, true);
+      $contents = file_get_contents('db.json');
+	     $json = json_decode($contents, true);
 	     $method = $_SERVER['REQUEST_METHOD'];
 	     header('Content-type: application/json');
 	     $body = file_get_contens('php://input');
