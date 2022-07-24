@@ -4,4 +4,12 @@
 	if($_POST['via'] == "0" ) {
 		print_r($dadosJsonDecodificados);
 	} 
+	if($_POST['via'] == "1" ) {
+		$arrayLivro = [
+			'Livro' => [
+				'NomeAutor' => $_POST['nomeAutor']
+			]
+		]
+		print_r(json_encode($arrayLivro));
+	}
 ?>
