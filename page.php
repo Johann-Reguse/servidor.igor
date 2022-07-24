@@ -13,8 +13,8 @@
 	
 	if($_GET){
 		echo json_encode($json[$path[0]]);
-		echo deu certo
+		echo deu certo;
 	}else {
-		echo deu errado
+		echo deu errado;
 	}
 ?>
