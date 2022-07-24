@@ -4,7 +4,8 @@
     </head>
     <body>
         <form action="page.php" method="POST">
-            <input type="text" name="via" placeholder="0 visualizar banco de dados / 1 enviar dados">
+            <p>0 visualizar banco de dados / 1 enviar dados</p>
+            <input type="text" name="via" placeholder="">
             <br>
             <input type="text" name="nome" placeholder="Nome autor">
             <input type="text" name="sobrenome" placeholder="Sobrenome autor">
