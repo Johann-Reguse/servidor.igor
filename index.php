@@ -5,7 +5,7 @@
     <body>
         <form action="page.php" method="POST">
             <p>0 visualizar banco de dados / 1 enviar dados</p>
-            <input type="text" name="via" placeholder="">
+            <input type="text" name="via" placeholder="0 ou 1">
             <br>
             <input type="text" name="nome" placeholder="Nome autor">
             <br>
