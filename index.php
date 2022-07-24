@@ -6,7 +6,7 @@
         <p>ola mundo</p>
         <a href="https://igorbecker.herokuapp.com/page.php">Verificar dados do Json</a>
         <form action="page.php" method="GET">
-            <input type="submit" value="enviar">
+            <input type="submit" value="obter dados via método GET">
         </form>
     </body>    
 </html>
