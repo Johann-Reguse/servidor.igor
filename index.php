@@ -17,16 +17,5 @@
 			echo '[]';
 		}
 	  }
-          
-          if($method === 'POST') {
-	    $jsonBody = json_decode($body, true);
-            $jsonBody['id'] = time();
-		  
-	    if(!$json[$path[0]]) {
-	      $json[$path[0]] = []
-	    }
-	    $json[$path[0]][] = $jsonBody;
-	    echo json_encode($jsonBody);
-	    file_put_contents('db_json', json_encode($json));
-	  }
+       
     ?>
