@@ -1,4 +1,3 @@
-<?php
 <html>
     <head>
         <title>pagina de requisição GET e POST</title>
@@ -30,4 +29,3 @@
         </form>
     </body>    
 </html>
-?>
