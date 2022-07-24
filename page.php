@@ -8,7 +8,8 @@
   	
 	header('Content-type: application/json');
 	$body = file_get_contents('php://input');
-	  
+	
+	echo json_encode($json[$path[0]]);
 	if($method === 'GET'){
 		echo json_encode($json[$path[0]]);
 	}    
