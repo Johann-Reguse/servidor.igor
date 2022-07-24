@@ -12,10 +12,6 @@
 	echo json_encode($json[$path[0]]);
 	
 	if($method === 'GET'){
-		if($json[$path[0]]) {
-			echo json_encode($json[$path[0]]);
-		}else {
-			echo json_encode($json[$path[0]]);
-		}
+		echo json_encode($json[$path[0]]);
 	}
 ?>
