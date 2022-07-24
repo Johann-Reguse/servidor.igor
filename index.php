@@ -1,4 +1,5 @@
     <?php
       $dadosJson = file_get_contents('db.json');
-      print_r($dadosJson);
+      $dadosJsonDecodificados = json_decode($dadosJson);
+       print_r($dadosJson);
     ?>
