@@ -11,7 +11,7 @@
 	
 	echo json_encode($json[$path[0]]);
 	
-	if($method === 'GET'){
+	if($_GET){
 		echo json_encode($json[$path[0]]);
 	}
 ?>
